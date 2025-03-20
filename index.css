@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+div {
+  width: 20rem;
+  position: relative;
+  height: 20rem;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #121212;
+}
+p {
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.emoji {
+  font-size: 4rem;
+  text-align: center;
+}
+button {
+  align-self: self-end;
+  position: absolute;
+  top: 16rem;
+  right: 6.5rem;
+  justify-self: self-end;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 0.8rem;
+  border: none;
+  outline: none;
+}
